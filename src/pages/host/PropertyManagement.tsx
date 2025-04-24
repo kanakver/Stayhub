@@ -1,19 +1,10 @@
 import { useState } from 'react'
 import {
-  BuildingOfficeIcon, 
-  HomeIcon, 
-  MapPinIcon, 
-  CurrencyDollarIcon, 
   PlusIcon,
   MagnifyingGlassIcon,
   FunnelIcon,
-  UserGroupIcon,
-  ArrowsUpDownIcon,
   EyeIcon,
   PencilIcon,
-  CheckCircleIcon,
-  ExclamationCircleIcon,
-  ClockIcon
 } from '@heroicons/react/24/outline'
 
 interface Room {

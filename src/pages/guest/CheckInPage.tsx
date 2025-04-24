@@ -3,20 +3,19 @@ import {
   QrCodeIcon,
   DocumentTextIcon,
   CreditCardIcon,
-  DevicePhoneMobileIcon,
   CheckCircleIcon,
   ArrowPathIcon
 } from '@heroicons/react/24/outline'
 
 const CheckInPage = () => {
   const [verificationCode, setVerificationCode] = useState('')
-  const [isVerified, setIsVerified] = useState(false)
+  // const [isVerified, setIsVerified] = useState(false)
   const [showQRCode, setShowQRCode] = useState(false)
 
   const handleVerification = () => {
     // In a real app, this would verify the code with the backend
     if (verificationCode.length === 6) {
-      setIsVerified(true)
+      // setIsVerified(true)
       setShowQRCode(true)
     }
   }

@@ -1,17 +1,11 @@
 import { useState } from 'react'
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
-import { Doughnut } from 'react-chartjs-2'
+
 import { 
   SunIcon, 
-  MoonIcon, 
   BoltIcon, 
-  WifiIcon, 
-  ShieldCheckIcon,
-  ChevronUpIcon,
-  ChevronDownIcon,
   CheckCircleIcon,
   TvIcon,
-  ClockIcon,
   TruckIcon,
   UserGroupIcon,
   SparklesIcon,
@@ -23,35 +17,6 @@ import {
 } from '@heroicons/react/24/outline'
 
 ChartJS.register(ArcElement, Tooltip, Legend)
-
-const energyData = {
-  labels: ['AC', 'Lighting', 'Entertainment', 'Other'],
-  datasets: [
-    {
-      data: [40, 30, 20, 10],
-      backgroundColor: [
-        '#0ea5e9',
-        '#10b981',
-        '#f59e0b',
-        '#6366f1',
-      ],
-      borderWidth: 0,
-    },
-  ],
-}
-
-const chartOptions = {
-  cutout: '70%',
-  plugins: {
-    legend: {
-      position: 'bottom' as const,
-      labels: {
-        padding: 20,
-        usePointStyle: true,
-      },
-    },
-  },
-}
 
 const GuestDashboard = () => {
   const [mainLight, setMainLight] = useState(true)

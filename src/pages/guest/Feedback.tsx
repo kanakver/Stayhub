@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import { 
   StarIcon,
-  ChatBubbleLeftIcon,
-  ArrowPathIcon,
   PaperAirplaneIcon,
   QuestionMarkCircleIcon
 } from '@heroicons/react/24/outline'

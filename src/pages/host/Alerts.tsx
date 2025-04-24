@@ -1,11 +1,9 @@
 import { useState } from 'react'
 import { 
-  ExclamationTriangleIcon,
   WrenchIcon,
   ShieldCheckIcon,
   CalendarIcon,
   BoltIcon,
-  BellIcon,
   EnvelopeIcon,
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon

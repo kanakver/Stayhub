@@ -5,10 +5,6 @@ import {
   BoltIcon,
   WrenchIcon,
   ClockIcon,
-  ArrowTrendingUpIcon,
-  ArrowTrendingDownIcon,
-  CheckCircleIcon,
-  ExclamationCircleIcon,
   CalendarIcon
 } from '@heroicons/react/24/outline'
 
@@ -189,7 +185,7 @@ const Dashboard = () => {
         <div className="lg:col-span-2 bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
           <h2 className="text-lg font-medium text-gray-900 dark:text-white mb-4">Occupancy Trend</h2>
           <div className="h-64 flex items-end space-x-2">
-            {['Tue', 'Thu', 'Fri', 'Sat', 'Sun'].map((day, index) => (
+            {['Tue', 'Thu', 'Fri', 'Sat', 'Sun'].map((day) => (
               <div key={day} className="flex-1">
                 <div
                   className="bg-primary-600 rounded-t"

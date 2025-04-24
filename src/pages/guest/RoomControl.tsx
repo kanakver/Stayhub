@@ -2,14 +2,12 @@ import { useState } from 'react'
 import { 
   SunIcon,
   MoonIcon,
-  BoltIcon,
   TvIcon,
   PauseIcon,
   ChevronUpIcon,
   ChevronDownIcon,
   AdjustmentsHorizontalIcon,
   LightBulbIcon,
-  SwatchIcon
 } from '@heroicons/react/24/outline'
 
 const RoomControl = () => {
